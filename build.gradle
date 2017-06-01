@@ -3,10 +3,10 @@
 apply from: 'config/dependencies.gradle'
 buildscript {
     repositories {
-        jcenter()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.android.tools.build:gradle:2.3.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.4"
         classpath "org.jetbrains.kotlin:kotlin-android-extensions:1.0.4"
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
@@ -17,7 +17,7 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
 
         maven { url "https://jitpack.io" }
     }
