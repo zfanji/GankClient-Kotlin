@@ -66,7 +66,7 @@ dependencies {
 
 
     compile 'com.github.githubwing:ByeBurger:1.2.2'
-    kapt 'com.android.databinding:compiler:1.0-rc5'
+    kapt 'com.android.databinding:compiler:2.3.0'
     // Kotlin
 //    compile dependencies.kotlinStdlib
     testCompile 'junit:junit:4.12'
